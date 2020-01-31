@@ -96,13 +96,17 @@ img {
   line-height: 14px;
   text-transform: uppercase;
 }
+.button:hover {
+  background: linear-gradient(180deg, #B68500 0%, #FFBB01 100%);
+  box-shadow: 0px 4px 0px #FDDE76;
+}
 
 .hero-avatar {
   width: 389px;
   height: 389px;
   background-color: #fff;
   border-radius: 50%;
-  background-image: url('../img/avatar.jpg');
+  background-image: url('../img/avatar.jpeg');
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center top -15px;
